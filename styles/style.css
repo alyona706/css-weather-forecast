@@ -1,0 +1,109 @@
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+     	-moz-box-sizing: border-box;
+         	 box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #FFF;
+	transition: all .1s ease-in;
+}
+
+body {
+		background-color: #3399CC;
+		width: 60%;
+		margin: 0 auto;
+}
+
+header {
+	padding: 30px 0;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 0;
+	margin: o auto;
+	border: 2px solid #fff;
+}
+
+li {
+	display: inline-block;
+	font-size: 22px;
+	width: 25%;
+	height: 100px;
+	border: 2px solid #fff;
+	text-align: center;
+	padding: 10px 0;
+	line-height: 1.6;
+	cursor: pointer;
+}
+
+li span, li span + i {
+	opacity: .6;
+}
+
+ul:hover li:not(:hover) {
+	opacity: .4;
+}
+
+.big {
+	width: 50%;
+}
+
+.largest {
+	width: 100%;
+}
+
+.turquoise {
+	background-color: #33CCCC;
+}
+
+.violet {
+	background-color: #996699;
+}
+
+.red {
+	background: #C24747;
+}
+
+.orange {
+	background: #E2674A;
+}
+
+.yellow {
+	background: #FFCC66;
+}
+
+.light-green {
+	background: #9C9;
+}
+
+.grey {
+	background: #699;
+}
+
+.pink {
+	background: #C69;
+}
+
+.green {
+	background: #396;
+}
+
+.purple {
+	background: #666699;
+}
+
+footer {
+	font-size: 22px;
+	margin: 25px 0;
+}
